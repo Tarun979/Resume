@@ -1,0 +1,20 @@
+
+	1)What is SqlCommand?
+SqlCommand: This type deals with databases. It executes SQL commands on a database. It sends an SQL command to a database that is specified by an SqlConnection object.
+(or)
+A SqlCommand object allows you to query and send commands to a database. It has methods that are specialized for different commands. The ExecuteReader method returns a SqlDataReader object for viewing the results of a select query. For insert, update, and delete SQL commands, you use the ExecuteNonQuery method.
+
+	2)What is SqlDataAdpater?
+
+Diff b/w SqlCommand and SqlDataAdapter?
+
+What is sqlDataReader?
+In this article, we'll learn about ADO.NET DataReader and how to use a DataReader in C#. A data reader provides an easy way for the programmer to read data from a database as if it were coming from a stream. The DataReader is the solution for forward streaming data through ADO.NET.
+
+	3)What is Dataset?
+DataSet is a disconnected orient architecture that means there is no need of active connections during work with datasets and it is a collection of DataTables and relations between tables. It is used to hold multiple tables with data.
+
+	4)What is DataTable?
+DataTable represents relational data into tabular form. ADO.NET provides a DataTable class to create and use data table independently. It can also be used with DataSet also. Initially, when we create DataTable, it does not have table schema.
+
+Diff b/w Dataset and Datatable?
